@@ -1,0 +1,17 @@
+package com.example.demo.response;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class ApiResponse {
+	
+	
+	public boolean status;
+	
+	public String message;
+	
+	public Object obj;
+
+}
